@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>SpringBoot_204</title>
+</head>
+<body>
+    <p th:inline="text">
+        The tv show's name was [[${tvShow.name}]].<br/>
+        It is a [[${tvShow.type}]].<br/>
+        It could be best described as [[${tvShow.description}]].
+    </p>
+</body>
+</html>
